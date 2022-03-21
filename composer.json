@@ -1,0 +1,24 @@
+{
+    "name": "boesing/container-interop-replacement",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "files": [
+            "autoload/container-interop-aliases.php"
+        ]
+    },
+    "require": {
+        "psr/container": "^1.0 || ^2.0",
+        "composer-plugin-api": "^2.0"
+    },
+    "provide": {
+        "container-interop/container-interop-implementation": "^1.2.0"
+    },
+    "replace": {
+        "container-interop/container-interop": "^1.2.0"
+    },
+    "conflict": {
+        "container-interop/container-interop": "<1.2.0",
+        "container-interop/container-interop-implementation": "<1.2.0"
+    }
+}
