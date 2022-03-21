@@ -1,5 +1,6 @@
 {
     "name": "boesing/container-interop-replacement",
+    "description": "Replacement for projects which do (still) depend on container-interop dependencies",
     "type": "library",
     "license": "BSD-3-Clause",
     "autoload": {
@@ -19,7 +20,6 @@
         "container-interop/container-interop": "^1.2.0"
     },
     "conflict": {
-        "container-interop/container-interop": "<1.2.0",
         "container-interop/container-interop-implementation": "<1.2.0"
     }
 }
