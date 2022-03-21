@@ -12,6 +12,7 @@
         "composer-plugin-api": "^2.0"
     },
     "provide": {
+        "laminas/container-interop-replacement-implementation": "^1.0.0",
         "container-interop/container-interop-implementation": "^1.2.0"
     },
     "replace": {
